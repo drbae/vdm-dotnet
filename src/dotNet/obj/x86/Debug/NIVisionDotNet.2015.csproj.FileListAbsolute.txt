@@ -1,0 +1,10 @@
+D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\bin\x86\Debug\NationalInstruments.Vision.dll
+D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\bin\x86\Debug\NationalInstruments.Vision.pdb
+D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\bin\x86\Debug\NationalInstruments.Common.dll
+D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\bin\x86\Debug\NationalInstruments.Vision.Common.pdb
+D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\bin\x86\Debug\NationalInstruments.Common.xml
+D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\obj\x86\Debug\NIVisionDotNet.2015.csproj.AssemblyReference.cache
+D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\obj\x86\Debug\NIVisionDotNet.2015.csproj.CoreCompileInputs.cache
+D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\obj\x86\Debug\NIVisionDotNet.2015.csproj.CopyComplete
+D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\obj\x86\Debug\NationalInstruments.Vision.dll
+D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\obj\x86\Debug\NationalInstruments.Vision.pdb

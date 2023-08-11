@@ -70,8 +70,8 @@ using System.Security.Permissions;
 [assembly: AssemblyVersion("13.1.40.100")]
 [assembly: AssemblyInformationalVersion("13.1.40.100")]
 #elif VS2015
-[assembly: AssemblyVersion("13.1.40.100")]
-[assembly: AssemblyInformationalVersion("13.1.40.100")]
+[assembly: AssemblyVersion("13.1.45.100")]
+[assembly: AssemblyInformationalVersion("13.1.45.100")]
 #else
 #error Need to define VS2005 or VS2008 or VS2010
 #endif

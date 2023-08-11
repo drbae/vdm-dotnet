@@ -5290,7 +5290,7 @@ namespace NationalInstruments.Vision.Analysis
         /// of 2, and so on. The border size of the destination image is not important.
         /// </para>
         /// 	<para>
-        /// A structuring element must have odd-sized dimensions so that it contains a central pixel. If one of the dimensions for the structuring element is even, the function does not take into account the odd boundary, farthest out on the matrix. For example, if the input structuring element is 6 × 4 (Width = 6 and Height = 4), the actual processing is performed at 5 x 3. Both the sixth line and the fourth row are ignored. The processing speed is correlated with the size of the structuring element. For example, a 3 x 3 structuring element processes nine pixels, and a 5 × 5 structuring element processes 25 pixels.
+        /// A structuring element must have odd-sized dimensions so that it contains a central pixel. If one of the dimensions for the structuring element is even, the function does not take into account the odd boundary, farthest out on the matrix. For example, if the input structuring element is 6 ?4 (Width = 6 and Height = 4), the actual processing is performed at 5 x 3. Both the sixth line and the fourth row are ignored. The processing speed is correlated with the size of the structuring element. For example, a 3 x 3 structuring element processes nine pixels, and a 5 ?5 structuring element processes 25 pixels.
         /// </para>
         /// 	<para>
         /// This function is optimized for MMX.
@@ -6315,7 +6315,7 @@ namespace NationalInstruments.Vision.Analysis
         ///  Marker is specified either though the array of points or using the marker image. If none or both of them are specified then and error is thrown.
         /// </para>  
         /// <para>
-        /// A structuring element must have odd-sized dimensions so that it contains a central pixel. If one of the dimensions for the structuring element is even, then function throws an error.  The processing speed is correlated with the size of the structuring element. For example, a 3 x 3 structuring element processes nine pixels, and a 5 × 5 structuring element processes 25 pixels.
+        /// A structuring element must have odd-sized dimensions so that it contains a central pixel. If one of the dimensions for the structuring element is even, then function throws an error.  The processing speed is correlated with the size of the structuring element. For example, a 3 x 3 structuring element processes nine pixels, and a 5 ?5 structuring element processes 25 pixels.
         /// </para>
         /// </remarks>
 
@@ -6417,7 +6417,7 @@ namespace NationalInstruments.Vision.Analysis
         ///  Marker is specified either though the array of points or using the marker image. If none or both of them are specified then and error is thrown.
         /// </para>  
         /// <para>
-        /// A structuring element must have odd-sized dimensions so that it contains a central pixel. If one of the dimensions for the structuring element is even, then function throws an error.  The processing speed is correlated with the size of the structuring element. For example, a 3 x 3 structuring element processes nine pixels, and a 5 × 5 structuring element processes 25 pixels.
+        /// A structuring element must have odd-sized dimensions so that it contains a central pixel. If one of the dimensions for the structuring element is even, then function throws an error.  The processing speed is correlated with the size of the structuring element. For example, a 3 x 3 structuring element processes nine pixels, and a 5 ?5 structuring element processes 25 pixels.
         /// </para>
         /// </remarks>
 
@@ -6496,7 +6496,7 @@ namespace NationalInstruments.Vision.Analysis
         ///  Marker is specified either though the array of points or using the marker image. If none or both of them are specified then and error is thrown.
         /// </para>  
         /// <para>
-        /// A structuring element must have odd-sized dimensions so that it contains a central pixel. If one of the dimensions for the structuring element is even, then function throws an error.  The processing speed is correlated with the size of the structuring element. For example, a 3 x 3 structuring element processes nine pixels, and a 5 × 5 structuring element processes 25 pixels.
+        /// A structuring element must have odd-sized dimensions so that it contains a central pixel. If one of the dimensions for the structuring element is even, then function throws an error.  The processing speed is correlated with the size of the structuring element. For example, a 3 x 3 structuring element processes nine pixels, and a 5 ?5 structuring element processes 25 pixels.
         /// </para>
         /// </remarks>
 
@@ -6602,7 +6602,7 @@ namespace NationalInstruments.Vision.Analysis
         ///  Marker is specified either though the array of points or using the marker image. If none or both of them are specified then and error is thrown.
         /// </para>  
         /// <para>
-        /// A structuring element must have odd-sized dimensions so that it contains a central pixel. If one of the dimensions for the structuring element is even, then function throws an error.  The processing speed is correlated with the size of the structuring element. For example, a 3 x 3 structuring element processes nine pixels, and a 5 × 5 structuring element processes 25 pixels.
+        /// A structuring element must have odd-sized dimensions so that it contains a central pixel. If one of the dimensions for the structuring element is even, then function throws an error.  The processing speed is correlated with the size of the structuring element. For example, a 3 x 3 structuring element processes nine pixels, and a 5 ?5 structuring element processes 25 pixels.
         /// </para>
         /// </remarks>
 
@@ -11817,7 +11817,7 @@ namespace NationalInstruments.Vision.Analysis
         /// The new type for the image.
         /// </param>
         /// <param name="numberOfShifts">
-        /// The shift value for converting 16-bit images to 8-bit images. The method ignores this value for all other conversions. The method executes this conversion by shifting the 16-bit pixel values to the right by the specified number of shift operations, up to a maximum of 8 shift operations, and then truncating to get an 8-bit value. Enter a value of –1 to ignore the bit depth and shift 0. Enter a value of 0 to use the bit depth to cast the image. Refer to the Remarks section for a description of how the function employs the shift value.
+        /// The shift value for converting 16-bit images to 8-bit images. The method ignores this value for all other conversions. The method executes this conversion by shifting the 16-bit pixel values to the right by the specified number of shift operations, up to a maximum of 8 shift operations, and then truncating to get an 8-bit value. Enter a value of ? to ignore the bit depth and shift 0. Enter a value of 0 to use the bit depth to cast the image. Refer to the Remarks section for a description of how the function employs the shift value.
         /// This parameter has a default value of 0.
         /// </param>
         /// <remarks>
@@ -14885,7 +14885,7 @@ namespace NationalInstruments.Vision.Analysis
         /// The real-world coordinates corresponding to the <format type="italics">pixelCoordinates.</format>
         /// </param>
         /// <returns>
-        /// The quality score of the learning process, which is a value between 0–1000. A quality of 1000 
+        /// The quality score of the learning process, which is a value between 0?000. A quality of 1000 
         /// means that the method learned the feature points perfectly with the chosen algorithm. It 
         /// does not necessarily reflect the absolute accuracy of the estimated calibration mapping, but 
         /// instead reflects how well the calibration mapping adapts to the learned points.
@@ -14915,7 +14915,7 @@ namespace NationalInstruments.Vision.Analysis
         /// Describes how the method learns the calibration information. 
         /// </param>
         /// <returns>
-        /// The quality score of the learning process, which is a value between 0–1000. A quality of 1000 
+        /// The quality score of the learning process, which is a value between 0?000. A quality of 1000 
         /// means that the method learned the feature points perfectly with the chosen algorithm. It 
         /// does not necessarily reflect the absolute accuracy of the estimated calibration mapping, but 
         /// instead reflects how well the calibration mapping adapts to the learned points.
@@ -17373,7 +17373,7 @@ public static void CalibrationSetAxisInfoByReferencePoints(VisionImage image, Co
         /// </param>
         /// <param name="scaleInvariant">
         /// Set this parameter to True to search for shapes regardless of size. Set this parameter to False to search 
-        /// for shapes that are ± 10 percent the same size as the template shape. The default is True.
+        /// for shapes that are ?10 percent the same size as the template shape. The default is True.
         /// </param>
         /// <returns>
         /// A <see cref="NationalInstruments.Vision.Analysis.ShapeReport" crefType="Unqualified"/> object containing information
@@ -17409,7 +17409,7 @@ public static void CalibrationSetAxisInfoByReferencePoints(VisionImage image, Co
         /// </param>
         /// <param name="scaleInvariant">
         /// Set this parameter to True to search for shapes regardless of size. Set this parameter to False to search 
-        /// for shapes that are ± 10 percent the same size as the template shape. The default is True.
+        /// for shapes that are ?10 percent the same size as the template shape. The default is True.
         /// </param>
         /// <param name="connectivity">
         /// Set this parameter to Connectivity8 to use connectivity-8 to determine whether particles are 
@@ -17451,7 +17451,7 @@ public static void CalibrationSetAxisInfoByReferencePoints(VisionImage image, Co
         /// </param>
         /// <param name="scaleInvariant">
         /// Set this parameter to True to search for shapes regardless of size. Set this parameter to False to search 
-        /// for shapes that are ± 10 percent the same size as the template shape. The default is True.
+        /// for shapes that are ?10 percent the same size as the template shape. The default is True.
         /// </param>
         /// <param name="connectivity">
         /// Set this parameter to Connectivity8 to use connectivity-8 to determine whether particles are 
