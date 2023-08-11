@@ -1938,7 +1938,7 @@ namespace NationalInstruments.Vision.Analysis
         Unlimited = 0,
         //==========================================================================================
         /// <summary>
-        /// The method allows for ±5 degrees of rotation.
+        /// The method allows for ? degrees of rotation.
         /// </summary>
 
         Degrees0 = 1,
@@ -3779,7 +3779,7 @@ namespace NationalInstruments.Vision.Analysis
     {
         //==========================================================================================
         /// <summary>
-        /// Searches for occurrences of the template image in the inspection image, assuming that the template image is not rotated more than ± 5 degrees.
+        /// Searches for occurrences of the template image in the inspection image, assuming that the template image is not rotated more than ?5 degrees.
         /// </summary>
 
         ShiftInvariant = 0,
@@ -8009,7 +8009,7 @@ internal LearnPatternAdvancedRotationOptions()
         /// <summary>
         /// Gets or sets the minimum separation distance, in pixels, between the origins of 
         /// two matches that have unique positions. The method does not return matches that 
-        /// have the same position, scale, and angle. Set this value to –1 if you do not want 
+        /// have the same position, scale, and angle. Set this value to ? if you do not want 
         /// the method to use the position of a match to determine whether the match is unique. 
         /// </summary>
         /// <value>
@@ -8025,7 +8025,7 @@ internal LearnPatternAdvancedRotationOptions()
         /// <summary>
         /// Gets or sets the minimum angular difference, in degrees, between two matches that 
         /// have unique angles. The method does not return matches that have the same position, 
-        /// scale, and angle. Set this value to –1 if you do not want the method to use the angle 
+        /// scale, and angle. Set this value to ? if you do not want the method to use the angle 
         /// of a match to determine whether the match is unique. 
         /// </summary>
         /// <value>
@@ -8057,7 +8057,7 @@ internal LearnPatternAdvancedRotationOptions()
         /// <summary>
         /// Gets or sets the maximum amount of overlap, expressed as a percentage, allowed 
         /// between the bounding rectangles of two unique matches. The method does not 
-        /// return matches that exceed this overlap percentage. Set this value to –1 if you 
+        /// return matches that exceed this overlap percentage. Set this value to ? if you 
         /// want the method to ignore bounding rectangle overlap. 
         /// </summary>
         /// <value>
@@ -19666,37 +19666,37 @@ internal float[] GetInternalEntries()
         /// <list type="bullet">
         /// 		<item>
         /// 			<description>
-        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size1x1" crefType="Unqualified"/>—The method will use a 1×1 sized sample from each cell.
+        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size1x1" crefType="Unqualified"/>—The method will use a 1? sized sample from each cell.
         /// </description>
         /// 		</item>
         /// 		<item>
         /// 			<description>
-        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size2x2" crefType="Unqualified"/>—The method will use a 2×2 sized sample from each cell.
+        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size2x2" crefType="Unqualified"/>—The method will use a 2? sized sample from each cell.
         /// </description>
         /// 		</item>
         /// 		<item>
         /// 			<description>
-        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size3x3" crefType="Unqualified"/>—The method will use a 3×3 sized sample from each cell.
+        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size3x3" crefType="Unqualified"/>—The method will use a 3? sized sample from each cell.
         /// </description>
         /// 		</item>
         /// 		<item>
         /// 			<description>
-        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size4x4" crefType="Unqualified"/>—The method will use a 4×4 sized sample from each cell.
+        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size4x4" crefType="Unqualified"/>—The method will use a 4? sized sample from each cell.
         /// </description>
         /// 		</item>
         /// 		<item>
         /// 			<description>
-        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size5x5" crefType="Unqualified"/>—The method will use a 5×5 sized sample from each cell.
+        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size5x5" crefType="Unqualified"/>—The method will use a 5? sized sample from each cell.
         /// </description>
         /// 		</item>
         /// 		<item>
         /// 			<description>
-        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size6x6" crefType="Unqualified"/>—The method will use a 6×6 sized sample from each cell.
+        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size6x6" crefType="Unqualified"/>—The method will use a 6? sized sample from each cell.
         /// </description>
         /// 		</item>
         /// 		<item>
         /// 			<description>
-        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size7x7" crefType="Unqualified"/>—The method will use a 7×7 sized sample from each cell.
+        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixCellSampleSize.Size7x7" crefType="Unqualified"/>—The method will use a 7? sized sample from each cell.
         /// </description>
         /// 		</item>
         /// 		<item>
@@ -19804,7 +19804,7 @@ internal float[] GetInternalEntries()
         /// <list type="bullet">
         /// 		<item>
         /// 			<description>
-        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixRotationMode.Degrees0" crefType="Unqualified"/>—The method allows for ± 5 degrees of rotation.
+        /// 				<see cref="NationalInstruments.Vision.Analysis.DataMatrixRotationMode.Degrees0" crefType="Unqualified"/>—The method allows for ?5 degrees of rotation.
         /// </description>
         /// 		</item>
         /// 		<item>
@@ -32218,7 +32218,7 @@ internal void ThrowIfDisposed()
 
         //==========================================================================================
         /// <summary>
-        /// Gets or sets the score of the detected ellipse. Scores range from 0–1000.
+        /// Gets or sets the score of the detected ellipse. Scores range from 0?000.
         /// </summary>
         /// <value>
         /// </value>
@@ -32472,7 +32472,7 @@ internal void ThrowIfDisposed()
 
         //==========================================================================================
         /// <summary>
-        /// Gets or sets the score of the matched line. Scores range from 0–1000, where a score of 1000 indicates a perfect match.
+        /// Gets or sets the score of the matched line. Scores range from 0?000, where a score of 1000 indicates a perfect match.
         /// </summary>
 
         public double Score

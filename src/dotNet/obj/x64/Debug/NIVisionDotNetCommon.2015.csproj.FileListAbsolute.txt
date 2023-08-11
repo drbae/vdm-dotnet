@@ -9,3 +9,14 @@ D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\obj\x64\Debug\NIVisionDotNetCommon.20
 D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\obj\x64\Debug\NIVisionDotNetCommon.2015.csproj.CopyComplete
 D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\obj\x64\Debug\NationalInstruments.Vision.Common.dll
 D:\1RnD\SRCAging\App\vdm-dotnet\src\dotNet\obj\x64\Debug\NationalInstruments.Vision.Common.pdb
+D:\@Study\SW\Repos\vdm-dotnet\src\dotNet\bin\x64\Debug\NationalInstruments.Vision.Common.dll
+D:\@Study\SW\Repos\vdm-dotnet\src\dotNet\bin\x64\Debug\NationalInstruments.Vision.Common.pdb
+D:\@Study\SW\Repos\vdm-dotnet\src\dotNet\bin\x64\Debug\NationalInstruments.Common.dll
+D:\@Study\SW\Repos\vdm-dotnet\src\dotNet\bin\x64\Debug\NationalInstruments.Common.xml
+D:\@Study\SW\Repos\vdm-dotnet\src\dotNet\obj\x64\Debug\NIVisionDotNetCommon.2015.csproj.AssemblyReference.cache
+D:\@Study\SW\Repos\vdm-dotnet\src\dotNet\obj\x64\Debug\NationalInstruments.Vision.WindowsForms.ImageViewer.resources
+D:\@Study\SW\Repos\vdm-dotnet\src\dotNet\obj\x64\Debug\NIVisionDotNetCommon.2015.csproj.GenerateResource.cache
+D:\@Study\SW\Repos\vdm-dotnet\src\dotNet\obj\x64\Debug\NIVisionDotNetCommon.2015.csproj.CoreCompileInputs.cache
+D:\@Study\SW\Repos\vdm-dotnet\src\dotNet\obj\x64\Debug\NIVisionDotNetCommon.2015.csproj.CopyComplete
+D:\@Study\SW\Repos\vdm-dotnet\src\dotNet\obj\x64\Debug\NationalInstruments.Vision.Common.dll
+D:\@Study\SW\Repos\vdm-dotnet\src\dotNet\obj\x64\Debug\NationalInstruments.Vision.Common.pdb
